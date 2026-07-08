@@ -66,7 +66,7 @@
     "@testing-library/react": "^16.3.2",
     "@types/d3": "^7.4.3",
     "@types/express": "^5.0.6",
-    "@types/node": "^26.0.0",
+    "@types/node": "^26.1.1",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "@types/react-helmet": "^6.1.11",
@@ -87,11 +87,11 @@
     "jsdom": "^29.1.1",
     "lint-staged": "^17.0.2",
     "mockjs": "^1.1.0",
-    "react-doctor": "^0.5.8",
+    "react-doctor": "^0.7.2",
     "swagger-ui-dist": "^5.32.5",
     "tailwindcss": "^4.3.0",
     "ts-node": "^10.9.2",
-    "typescript": "^6.0.3",
+    "typescript": "^7.0.2",
     "vitest": "4.1.8"
   },
   "overrides": {
