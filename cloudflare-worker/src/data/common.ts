@@ -70,7 +70,7 @@ export const members = [
 ];
 
 export const defaultUser = {
-  name: 'Serati Ma',
+  name: 'Sciencey',
   avatar:
     'https://gw.alipayobjects.com/zos/antfincdn/XAosXuNZyF/BiazfanxmamNRoxxVxka.png',
   userid: '00000001',

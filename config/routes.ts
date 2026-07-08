@@ -96,6 +96,19 @@ export default [
     ],
   },
   {
+    path: '/system',
+    name: 'system',
+    icon: 'unorderedList',
+    routes: [
+      {
+        path: '/system/log',
+        name: 'log',
+        icon: 'unorderedList',
+        component: './system/log',
+      },
+    ],
+  },
+  {
     path: '/form',
     icon: 'form',
     name: 'form',

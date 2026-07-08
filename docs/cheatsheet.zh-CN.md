@@ -453,7 +453,7 @@ npm run test:update         # 更新快照
 ```ts
 // File: mock/user.ts
 export default {
-  'GET /api/currentUser': { name: 'Serati Ma', access: 'admin' },
+  'GET /api/currentUser': { name: 'Sciencey', access: 'admin' },
   'POST /api/login': (req, res) => { res.end('ok'); },
 };
 ```

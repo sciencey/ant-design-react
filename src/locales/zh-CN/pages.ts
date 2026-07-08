@@ -36,6 +36,13 @@ export default {
   'pages.welcome.infoCard.procomponents.title': '了解 Pro Components',
   'pages.welcome.infoCard.procomponents.desc':
     'ProComponents 是基于 Ant Design 的高抽象模板组件，以一个组件就是一个页面为开发理念。',
+  'pages.system.log.title': '操作日志',
+  'pages.system.log.module': '模块名称',
+  'pages.system.log.action': '操作类型',
+  'pages.system.log.adminName': '操作人',
+  'pages.system.log.ip': 'IP 地址',
+  'pages.system.log.status': '状态',
+  'pages.system.log.createdAt': '操作时间',
   'pages.404.subTitle': '抱歉，您访问的页面不存在。',
   'pages.404.buttonText': '返回首页',
   'pages.admin.subPage.title': ' 这个页面只有 admin 权限才能查看',

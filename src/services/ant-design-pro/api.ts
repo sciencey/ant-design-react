@@ -60,6 +60,28 @@ export async function rule(
   });
 }
 
+/** 获取操作日志 GET /api/system/logs */
+export async function getSystemLogs(
+  params: {
+    /** 当前的页码 */
+    current?: number;
+    /** 页面的容量 */
+    pageSize?: number;
+    module?: string;
+    action?: string;
+    status?: number;
+  },
+  options?: { [key: string]: any },
+) {
+  return request<API.SystemLogList>('/api/system/logs', {
+    method: 'GET',
+    params: {
+      ...params,
+    },
+    ...(options || {}),
+  });
+}
+
 /** 更新规则 PUT /api/rule */
 export async function updateRule(options?: { [key: string]: any }) {
   return request<API.RuleListItem>('/api/rule', {

@@ -56,7 +56,7 @@ export const user = [
 
 // 默认用户信息
 export const defaultUser = {
-  name: 'Serati Ma',
+  name: 'Sciencey',
   avatar: 'https://gw.alipayobjects.com/zos/antfincdn/XAosXuNZyF/BiazfanxmamNRoxxVxka.png',
   userid: '00000001',
   email: 'antdesign@alipay.com',

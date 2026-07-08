@@ -37,6 +37,13 @@ export default {
   'pages.welcome.infoCard.procomponents.title': 'Learn Pro Components',
   'pages.welcome.infoCard.procomponents.desc':
     'ProComponents provides higher-abstraction template components on top of Ant Design, with one-component-one-page philosophy.',
+  'pages.system.log.title': 'Operation Log',
+  'pages.system.log.module': 'Module',
+  'pages.system.log.action': 'Action',
+  'pages.system.log.adminName': 'Operator',
+  'pages.system.log.ip': 'IP Address',
+  'pages.system.log.status': 'Status',
+  'pages.system.log.createdAt': 'Operation Time',
   'pages.404.subTitle': 'Sorry, the page you visited does not exist.',
   'pages.404.buttonText': 'Back Home',
   'pages.admin.subPage.title': 'This page can only be viewed by Admin',

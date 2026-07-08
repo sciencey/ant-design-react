@@ -190,7 +190,7 @@ export const layout: RunTimeLayoutConfig = ({
  * @doc https://umijs.org/docs/max/request#配置
  */
 export const request: RequestConfig = {
-  baseURL: isDev ? '' : 'https://pro-api.ant-design-demo.workers.dev',
+  baseURL: isDev ? '' : 'http://47.86.12.74:5001',
   ...errorConfig,
 };
 

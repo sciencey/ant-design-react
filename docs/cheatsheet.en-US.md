@@ -453,7 +453,7 @@ Test files go next to the component, named `*.test.ts(x)`.
 ```ts
 // File: mock/user.ts
 export default {
-  'GET /api/currentUser': { name: 'Serati Ma', access: 'admin' },
+  'GET /api/currentUser': { name: 'Sciencey', access: 'admin' },
   'POST /api/login': (req, res) => { res.end('ok'); },
 };
 ```
